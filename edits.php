@@ -4,8 +4,8 @@ if (isset($_GET['id'])) {
     $product_id = $_GET['id'];
 
     // Retrieve the product information from Shopify using its ID
-    $shopify_store_url = 'https://mmlfunctions.myshopify.com';
-    $access_token = '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';
+    $shopify_store_url = 'https://mmfunctions.myshopify.com';
+    $access_token = 'shpat_9efc430f9b7569c1e726b97dded18';
 
     $product_url = $shopify_store_url . '/admin/api/2023-07/products/' . $product_id . '.json';
 
