@@ -2,8 +2,8 @@
 // $product_id='';
  $product_id = $_REQUEST['id'];
 if (isset($_GET['id'])) {
-    $shopify_store_url = 'https://mmlfunctions.myshopify.com';
-    $access_token = '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';
+    $shopify_store_url = 'https://mmfunctions.myshopify.com';
+    $access_token = 'shpat_9e6fc30fb17569c1726bc97dded18';
 
     $delete_url = $shopify_store_url . '/admin/api/2023-07/products/' . $product_id . '.json';
 
