@@ -36,8 +36,8 @@
 
  <?php
 // Shopify Store Credentials
-$shopify_store_url = 'https://mmlfunctions.myshopify.com';
-$access_token = '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';
+$shopify_store_url = 'https://mmfunctions.myshopify.com';
+$access_token = 'shpat_9e6fc30f9b17569c126bc97dde18';
 
 // Create a cURL session to fetch products
 $ch = curl_init($shopify_store_url . '/admin/api/2023-07/products.json');
